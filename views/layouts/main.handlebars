@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="/">Kitchen Blogger</a>
+            <a class="navbar-brand" href="/">KITCHEN HEAVEN</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,22 +24,22 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">Home
+                        <a class="nav-link" href="/">HOME
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     {{#if logged_in}}
-                    <a class="nav-link" href="/dashboard">Dashboard</a>
+                    <a class="nav-link" href="/dashboard">YOUR DASHBOARD</a>
                     {{else}}
                     <li class="nav-item">
-                        <a class="nav-link" href="/login">Dashboard</a>
+                        <a class="nav-link" href="/login">DASHBOARD</a>
                     </li>
                     {{/if}}
                     {{#if logged_in}}
-                    <button id="logout" class="btn btn-primary">Logout</button>
+                    <button id="logout" class="btn btn-primary">LOG-OUT</button>
                     {{else}}
                     <li class="nav-item">
-                        <a class="nav-link" href="/login">Login</a>
+                        <a class="nav-link" href="/login">LOG-IN</a>
                     </li>
                     {{/if}}
                 </ul>
@@ -50,7 +50,7 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-lg-8">
-                <h1 class="mt-4">Your Dashboard</h1>
+                <h1 class="mt-4"></h1>
             </div>
         </div>
     </div>
