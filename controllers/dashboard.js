@@ -1,8 +1,3 @@
-// const router = require("./api/userRoutes");
-
-// router.get('/dashboard', async (req, res)=> {
-//     res.render('dashboard')
-// });
 
 const router = require('express').Router();
 const { User, Post, Comment } = require('../models');
