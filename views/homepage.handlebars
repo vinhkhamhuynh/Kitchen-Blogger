@@ -6,22 +6,61 @@
 <h6 class="pb-4 has-text-centered is-italic">Stay Tune for more Recipes!!</h6>
 {{/each}}
 
-
-<div class="card">
-    <header class="card-header">
-        <p class="card-header-title">
-            Live Chat
-        </p>
-    </header>
-
-    <div class="box">
-        <div class="card-content">
-            Chat goes here 
-        </div>
+<!--Chat Room-->
+<div class="container is-fluid">
+    <div class="notification is-primary">
+        Live Chat
     </div>
 
-    <footer class="card-footer">
-        <input class="input" type="text" placeholder="Text input">
-        <button class="button is-dark">Send</button>
+    <div class="box">
+        <article class="media">
+            <div class="media-left">
+                <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                </figure>
+            </div>
+            <div class="media-content">
+                <div class="content">
+                    <p>
+                        <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa
+                        fringilla egestas. Nullam condimentum luctus turpis.
+                    </p>
+                </div>
+                <nav class="level is-mobile">
+                    <div class="level-left">
+                        <a class="level-item" aria-label="reply">
+                            <span class="icon is-small">
+                                <i class="fas fa-reply" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <a class="level-item" aria-label="retweet">
+                            <span class="icon is-small">
+                                <i class="fas fa-retweet" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <a class="level-item" aria-label="like">
+                            <span class="icon is-small">
+                                <i class="fas fa-heart" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </article>
+    </div>
+    <footer class="footer">
+        
+        <div class="content has-text-centered">
+            <textarea class="textarea is-link" placeholder="Type here..."></textarea>
+            <button class="button is-dark">Send</button>
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+        
     </footer>
 </div>
