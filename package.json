@@ -26,9 +26,11 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.1",
     "express-session": "^1.17.1",
+    "moment": "^2.29.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2",
-    "social-media-sharing": "^1.0.2"
+    "social-media-sharing": "^1.0.2",
+    "socket.io": "^4.0.1"
   },
   "devDependencies": {}
 }
