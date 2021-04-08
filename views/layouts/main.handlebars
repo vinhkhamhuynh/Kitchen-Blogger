@@ -15,43 +15,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Bulma link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <!--Custom css link-->
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="/">KITCHEN HEAVEN</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">HOME
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    {{#if logged_in}}
-                    <a class="nav-link" href="/dashboard">YOUR DASHBOARD</a>
-                    {{else}}
-                    <li class="nav-item">
-                        <a class="nav-link" href="/login">DASHBOARD</a>
-                    </li>
-                    {{/if}}
-                    {{#if logged_in}}
-                    <button id="logout" class="btn btn-primary">SIGN OUT</button>
-                    {{else}}
-                    <li class="nav-item">
-                        <a class="nav-link" href="/login">SIGN IN</a>
-                    </li>
-                    {{/if}}
-                </ul>
+    <div class="container bg-dark nav-heading">
+        <header class="text-center text-light">
+            KITCHEN HEAVEN
+        </header>    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                {{!-- <a class="navbar-brand" href="/">KITCHEN HEAVEN</a> --}}
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">HOME
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        {{#if logged_in}}
+                        <a class="nav-link" href="/dashboard">YOUR DASHBOARD</a>
+                        {{else}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">DASHBOARD</a>
+                        </li>
+                        {{/if}}
+                        {{#if logged_in}}
+                        <button id="logout" class="btn btn-primary">SIGN OUT</button>
+                        {{else}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">SIGN IN</a>
+                        </li>
+                        {{/if}}
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     {{#if loggedIn}}
     <div class="container">
         <div class="row mt-5">
