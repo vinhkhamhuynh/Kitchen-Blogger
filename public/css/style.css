@@ -19,6 +19,19 @@ body {
 	font-size: 16px;
 	background: var(--light-color);
 	margin: 20px;
+	background-image: url('../images/cutting_board3.jpeg');	
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+header {
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;	
+}
+.card-header {
+	background-color: #0AF5C6;
 }
 
 ul {
