@@ -2,7 +2,7 @@
 <div class="chat-container sidebar">
     <header class="chat-header">
         <h1><i class="fas fa-smile"></i> Kitchen Chat</h1>
-        <a href="index.html" class="btn">Sign out</a>
+        {{!-- <a href="index.html" class="btn">Sign out</a> --}}
     </header>
     <main class="chat-main">
         <div class="chat-sidebar">
@@ -10,12 +10,9 @@
         <h2 id="room-name">JavaScript</h2> -->
             <h3><i class="fas fa-users"></i> Members</h3>
             <ul id="users">
-                <li>Brad</li>
-                <li>John</li>
-                <li>Mary</li>
-                <li>Paul</li>
-                <li>Mike</li>
-            
+                {{#if logged_in}}
+                <li>A member has Joined the Chat</li>
+                {{/if}}           
             </ul>
         </div>
         <div class="chat-messages">
