@@ -15,12 +15,14 @@
                 <li>Mary</li>
                 <li>Paul</li>
                 <li>Mike</li>
+            
             </ul>
         </div>
         <div class="chat-messages">
 
         </div>
     </main>
+    {{#if logged_in}}
     <div class="chat-form-container">
         <form id="chat-form">
             <input id="msg" type="text" placeholder="Enter Message" required autocomplete="off" />
@@ -28,3 +30,8 @@
         </form>
     </div>
 </div>
+{{/if}}
+
+ {{!-- script for chatbox --}}
+    {{!-- <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/chatBox.js"></script> --}}
