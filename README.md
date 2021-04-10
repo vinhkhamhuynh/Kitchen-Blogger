@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
 ## Description
-This is a recipe sharing blog post application. The application allows users to login and view and comment on recipes posted by other users. The user can also post, edit or delete their own recipes. One of the main features of this application is the abiltiy of all logged in users to instant message each other in real time using the chat box.
+This is a recipe sharing blog post application. The application allows users to login and view and comment on recipes posted by other users. The user can also post, edit or delete their own recipes. One of the main features of this application is the ability of all logged in users to instant message each other in real time using the chat box.
 
 This application was built using the **Model-View-Controller (MVC)** paradigm. Node.js and Express.js were used to create a RESTful API, Handlebars.js was used as the template engine, MYSQL and Sequelize ORM were used for the database, express-session and cookies were used for authentication, and socket.io was used to create the chatbox.
 
