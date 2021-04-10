@@ -41,7 +41,7 @@ Clone git repository and run `npm install` to install all dependencies. Launch M
 
 ## Usage
 
-demo video goes here
+![Demo for Kitchen Blogger](./public/images/Kitchen_Blogger.gif)
 
 ## Contributing
 See the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
